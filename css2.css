@@ -1,0 +1,95 @@
+
+body{
+  margin: 0px;
+  width: 100%;
+}
+
+#container {
+  width:1000px;
+  float: left;
+  overflow: hidden;
+}
+
+header {
+  background-color: #b2e7ff;
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+  text-align:center;
+  border-bottom: 2px solid #0ab1ff;
+}
+
+#content {}
+
+footer {
+  background-color: #3cff78;
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+  text-align:center;
+  border-bottom: 2px solid #0ab1ff;
+  width: 1000px;
+  clear:both;   
+}
+
+#nav {
+  background-color: #0ab1ff;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 10px;
+  padding-right: 10px;
+  width: 230px;
+  font-family: tahoma;
+  font-size: 18px;
+  color: black;    
+  float:left; 
+  padding-bottom: 400px;
+  margin-bottom: -400px;   
+}
+
+#section {
+  background-color: #ededed;
+  padding-top:20px; 
+  padding-bottom:20px;
+  padding-left:20px;
+  padding-right:20px;
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+  width:710px;
+  float:left; 
+  padding-bottom: 400px;
+  margin-bottom: -400px;
+}
+
+strong {
+  font-family: tahoma;
+  font-size: 24px;
+  color: black;
+}
+
+#section p {
+  font-family: tahoma;
+  font-size: 14px;
+  color: #802525;
+}
+
+#nav strong {
+  font-family: tahoma;
+  font-size: 18px;
+  color: black;
+}
+
+li {
+  font-family: tahoma;
+  font-size: 14px;
+  color: white;
+  line-height: 30px;
+}
+
+#nav p {
+  font-family: tahoma;
+  font-size: 12px;
+  color: black;
+}
+
