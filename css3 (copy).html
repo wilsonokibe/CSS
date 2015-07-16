@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+
+.container {
+ width:1000px;
+ height:200px;
+ float: left;
+ margin-right: 1000px;
+}
+
+img {
+ width:; /* the width of the logo image */
+ height:; /* the height of the logo image */
+}
+
+hr {
+  border: 2px solid #db2927;
+  margin-left: -10px;
+}
+
+.contact {
+  font-family: tahoma;
+  font-size: 13px;
+  color: black;
+  text-align: right;
+  margin-top: -20px;
+}
+
+a {
+  text-decoration: none;
+  color: #045198;
+  margin-right: 20px;
+}
+
+.content{
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+}
+
+.heading {  
+  font-family: tahoma;
+  font-size: 18px;
+  color: #2c286d;
+}
+
+.form {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 20px 25px;
+  background-color: #ececec;
+  border: 1px solid #bcbcbc; 
+}
+
+.form-group{
+  margin-top: 10px;
+  text-align: right;
+}
+.form-group1{
+  margin-top: 10px;
+  text-align: right;
+  width: 360px;
+}
+
+.radio-group {
+  width: 50px;
+}
+
+.label-field{
+  font-size: 14px;
+  font-family: tahoma;
+  color: black;
+  text-align: right;
+  padding-right: 20px;
+  clear: both;
+}
+
+input {
+  width: 360px;
+  background-color: white;
+  border: 1px solid #b9b9b9;
+  height: 25px;
+}
+
+input[type="radio"] {
+    display:inline-block;
+}
+
+</style>
+</head>
+<body>
+
+  <div class="container">
+    <img src="vinsol-logo.png" alt="logo" />
+      <div class="contact">Email us at: <a href="#">sales@vinsol.com</a> Skype: <a href="#">Vinsol</a><hr></div>
+    <div class="content">
+      <div class="heading">Please fill the form below</div>
+      <div class="form">
+        <div class="form-group">
+          <label class="label-field" for="first">First Name</label>
+          <input type="text" name="first" id="first"> 
+        </div>
+        <div class="form-group">     
+          <label class="label-field" for="last">Last Name</label>
+          <input type="text" name="last" id="last">
+        </div>
+        <div class="form-group">     
+          <label class="label-field" for="email">Email Address</label>
+          <input type="email" name="email" id="email">
+        </div>
+        <div class="form-group">     
+          <label class="label-field" for="pass">Password</label>
+          <input type="password" name="pass" id="pass">
+        </div>
+        <div class="form-group"> 
+          <label class="label-field">Gender</label>
+          <input type="radio" name="gender" id="male"  value="yes">
+          <label class="label-field" for="male">Male</label>
+          <input type="radio" name="gender" id="female" value="no">
+          <label class="label-field" for="female">Female</label>
+        </div> 
+        <div class="form-group">     
+          <label class="label-field" for="date">Date of Birth</label>
+          <select name="day">
+            <option value="one">01</option>
+            <option value="two">02</option>
+            <option value="three">03</option>
+            <option value="four">04</option>
+          </select>
+          <select name="month">
+            <option value="one">01</option>
+            <option value="two">02</option>
+            <option value="three">03</option>
+            <option value="four">04</option>
+          </select>
+          <select name="year">
+            <option value="one">2012</option>
+            <option value="two">2013</option>
+            <option value="three">2014</option>
+            <option value="four">2015</option>
+          </select>
+        </div>
+        <div class="form-group">     
+          <label class="label-field" for="pass">Address</label>
+          <textarea name="message" id="comm" rows="10" cols="40"  required></textarea>
+        </div>  
+        <div class="form-group">   
+          <input type="submit" value="Submit">
+        </div>    
+      </div>
+    </div>  
+  </div> 
+
+</body>
+</html>
