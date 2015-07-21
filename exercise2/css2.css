@@ -39,7 +39,7 @@ footer {
   clear:both;
 }
 
-#nav{
+#sidebar{
   background-color: #0ab1ff;
   padding: 25px 10px;
   width: 250px;
@@ -51,7 +51,7 @@ footer {
   float:left;   
 }
 
-#section {
+section {
   background-color: #ededed;
   padding: 20px;
   font-size: 24px;
@@ -59,12 +59,12 @@ footer {
   float:left; 
 }
 
-#section p {
+section p {
   font-size: 14px;
   color: #802525;
 }
 
-#nav p {
+#sidebar p {
   font-size: 12px;
 }
 
