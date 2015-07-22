@@ -1,75 +1,67 @@
 /*a new comment*/
 *{
   padding:0;
-  margin: 0;
+  margin: 0;  
+  font-family: tahoma;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
-body{
-  margin: 0px;
-  width: 100%;
-  background: url(pic.gif) left repeat-y #ededed;  
-  font-family: tahoma;
+body, #container{
+  width: 100%; 
 }
 
 #container {
-  width:100%;
   float: left;
   overflow: hidden;
   padding-bottom: 80px;
+  background: url(pic.gif) left repeat-y #ededed; 
 }
 
-header {
-  background-color: #b2e7ff;
+header, footer, #sidebar{
   font-size: 24px;
   text-align:center;
   border-bottom: 2px solid #0ab1ff;
   padding-top: 20px;
 }
 
-footer {
-  background-color: #3cff78;
-  font-size: 24px;
-  text-align:center;
-  border-bottom: 2px solid #0ab1ff;
-  padding-top: 20px; 
+header { background-color: #b2e7ff;}
 
-  position: relative;
-  margin-top: -80px; /* negative value of footer height */
+footer {
+  background-color: #3cff78;  
   height: 80px;
   clear:both;
 }
 
+#sidebar, section{
+  float: left;
+}
+
 #sidebar{
-  background-color: #0ab1ff;
   padding: 25px 10px;
   width: 250px;
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; 
   font-size: 18px;
-  color: black;    
-  float:left;   
-}
-
-section {
-  background-color: #ededed;
-  padding: 20px;
-  font-size: 24px;
-  width:710px;
-  float:left; 
-}
-
-section p {
-  font-size: 14px;
-  color: #802525;
+  text-align:left;   
 }
 
 #sidebar p {
   font-size: 12px;
 }
 
+section {
+  padding: 20px;
+  font-size: 24px;
+  width:710px;
+}
+
+section p, li { font-size: 14px;}
+
+section p {
+  color: #802525;
+}
+
 li {
-  font-size: 14px;
-  color: white;
+  color: #fff;
   line-height: 30px;
 }
