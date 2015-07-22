@@ -1,21 +1,13 @@
-.container {
+.container, .contact {
   width:100%; 
   font-family: tahoma;
 }
 
-hr {
-  border-bottom: 2px solid #db2927;
-  width: 100%;
-  margin: 0px;
-}
-
 .contact {
   font-size: 13px;
-  color: black;
   text-align: right;
   float: right;
   border-bottom: 2px solid #db2927;
-  width: 100%;
   margin-top: -15px;
 }
 
@@ -25,8 +17,10 @@ a {
   margin-right: 20px;
 }
 
+.content, .form {
+  width: 500px;  
+}
 .content{
-  width: 500px;
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
@@ -35,22 +29,27 @@ a {
 .heading {  
   font-size: 18px;
   color: #2c286d;
-  padding-top: 20px;
+  padding-top: 20px; 
 }
 
 .form {
-  width: 500px;
   margin-left: auto;
   margin-right: auto;
-  padding: 20px 25px;
+  padding: 20px 20px;
   background-color: #ececec;
   border: 1px solid #bcbcbc; 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 .form-content {
-  width: 360px;
+  width: 350px;
   display: inline-block;
   text-align: left;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 .form-group{
@@ -65,7 +64,7 @@ a {
 
 .form-button-group{
   margin-top: 10px;
-  margin-left: 135px;
+  margin-left: 109px;
 }
 
 .label-field{
@@ -73,7 +72,13 @@ a {
   text-align: right;
   padding-right: 20px;
   clear: both;
-  width: 70px;
+  width: 140px;
+}
+
+select {
+  width: 110px;
+  font-size: 13px;
+  color: #6f6f6f;
 }
 
 .label-field-radio {
@@ -100,8 +105,8 @@ input {
   border: 1px solid #b9b9b9;
   height: 25px;
 }
-
-input[type="text"], input[type="email"], input[type="password"]  { width: 360px;}
+/*
+input[type="text"], input[type="email"], input[type="password"]  { width: 360px;}*/
 
 input[type="radio"] {
     display:inline; 
@@ -109,10 +114,13 @@ input[type="radio"] {
 }
 
 textarea {
-  width: 360px;
+  width: 350px;
   height: 135px;
   border: 1px solid #b9b9b9;
   background-color: white;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 input[type="submit"] {
