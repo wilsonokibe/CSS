@@ -2,6 +2,12 @@ nav {
   margin-top:15px;
 }
 
+* { 
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
 .menu {
   padding: 0; 
   list-style: none;
@@ -36,10 +42,11 @@ a{font-family: Georgia; font-style: italic;}
   top: 10px;
 }
 
+.menu > li:hover, .sub-menu { border: 1px solid #6d6d6d; }
+
 .menu > li:hover {
-  height: 38px;
-  background: white;  
-  border: 1px solid #6d6d6d;  
+  /*height: 38px;*/
+  background: white;   
   border-bottom: none;  
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
@@ -68,10 +75,6 @@ a{font-family: Georgia; font-style: italic;}
   width: 200px; 
   margin-left: -1px;
   padding: 10px; 
-  border: 1px solid #6d6d6d;  
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; 
 }
 
 .menu li:hover > .sub-menu {
