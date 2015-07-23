@@ -32,9 +32,8 @@ nav {
 a{font-family: Georgia; font-style: italic;}
 
 .menu > li a { 
-  padding-left: 20px;
-  padding-right: 20px;   
-  color: black;
+  padding: 0 20px;   
+  color: black;            /*a is a link and inherits a blue color for links. Setting color black is necessary*/
   font-size: 18px;     
   text-decoration: none;
   position: relative;
@@ -45,12 +44,8 @@ a{font-family: Georgia; font-style: italic;}
 .menu > li:hover, .sub-menu { border: 1px solid #6d6d6d; }
 
 .menu > li:hover {
-  /*height: 38px;*/
   background: white;   
   border-bottom: none;  
-  -webkit-box-sizing: border-box;
-  -moz-box-sizing: border-box;
-  box-sizing: border-box; 
 }
 
 .menu > li:hover > a {
@@ -61,11 +56,7 @@ a{font-family: Georgia; font-style: italic;}
   z-index: 4;
 } 
 
-.menu:after { /* clear menu after hover and dropdown*/
-  content: ""; 
-  clear: both; 
-  display: block;
-} 
+ 
 
 .sub-menu { /* sub menu positioning and border*/
   list-style: none;

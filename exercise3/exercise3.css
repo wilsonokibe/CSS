@@ -32,15 +32,13 @@ a {
   padding-top: 20px; 
 }
 
-.form, .form-content, textarea { 
+form, .form-content, textarea { 
   -webkit-box-sizing: border-box;
   -moz-box-sizing: border-box;
   box-sizing: border-box; }
 
-.form {
-  margin-left: auto;
-  margin-right: auto;
-  padding: 20px 20px;
+form {
+  padding: 20px;
   background-color: #ececec;
   border: 1px solid #bcbcbc;
 }
@@ -57,7 +55,6 @@ a {
 
 .form-group2, .form-group, .form-button-group {
   margin-top: 10px;
-  /*text-align: left;*/
 }
 
 .form-button-group{
@@ -97,12 +94,9 @@ input {
   border: 1px solid #b9b9b9;
   height: 25px;
 }
-/*
-input[type="text"], input[type="email"], input[type="password"]  { width: 360px;}*/
 
-input[type="radio"] {
-    display:inline; 
-    vertical-align: middle;   
+input[type="radio"] { 
+  vertical-align: middle;   
 }
 
 textarea {
@@ -118,8 +112,7 @@ input[type="submit"] {
   height: 32px;
   text-align: center; 
   font-size: 14px;
-  color: white; 
-  cursor: pointer;  
+  color: white;   
 }
 
 
